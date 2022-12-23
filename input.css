@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .bg1{
+        background: linear-gradient(327.21deg, rgba(33, 0, 75, 0.24) 3.65%, rgba(60, 0, 136, 0) 40.32%), linear-gradient(245.93deg, rgba(209, 21, 111, 0.16) 0%, rgba(209, 25, 80, 0) 36.63%), linear-gradient(147.6deg, rgba(58, 19, 255, 0) 29.79%, rgba(98, 19, 255, 0.01) 85.72%), #13111C;;
+    }
+    .bgbtn{
+        background: linear-gradient(76.35deg, rgb(102, 10, 194) 15.89%, rgb(133, 10, 194) 89.75%);;
+    }
+    .bgbtn1{
+        background: linear-gradient(76.35deg, rgb(118, 37, 199) 15.89%, rgb(147, 29, 206) 89.75%);;
+    }
+    .bgsec5{
+        background: linear-gradient(132.29deg,rgba(132,200,168,0.08) 17.64%,rgba(114,192,156,0) 66.58%),hsl(250, 21%, 11%);
+    }
+    .shadosec3{
+        box-shadow: 0px 0px 16px -3px hsl(220, 62%, 25%);
+    }
+    .shadosec4{
+        box-shadow: 0px 0px 16px -3px hsl(152, 32%, 16%);
+    }
+    .shadosec5{
+        box-shadow: 0px 4px 24px rgb(132 59 206 / 15%);
+    }
+    .bdrsec3box{
+        border-color: hsl(220, 62%, 25%);
+    }
+    .bdrsec4box{
+        border-color: hsl(152, 32%, 16%);
+    }
+    .bdrsec5box{
+        border-color: hsl(270, 45%, 24%);
+    }
+    .bdrsec3boxbox{
+        border-color: rgb(5 59 120 / 35%);
+    }
+    .bdrsec4boxbox{
+        /* border-color: hsla(152, 36%, 9%, 0.808); */
+        border-color: hsl(152, 26%, 11%);
+    }
+    .bdrsec5boxbox{
+        border-color: hsl(270, 40%, 16%);
+    }
+    .trackblue{
+        background: linear-gradient(0deg, rgb(255 255 255/0) 0%, hsla(220,62%,25%,0.5) 15%, hsla(220,62%,25%,0.5) 85%, rgb(255 255 255/0) 100%);
+    }
+    .trackgreen{
+        background: linear-gradient(0deg, rgb(255 255 255/0) 0%, hsla(150,60%,13%,0.5) 15%, hsla(150,60%,13%,0.5) 85%, rgb(255 255 255/0) 100%);
+    }
+    .bluetrainanimation{
+        animation: bluetrain 5s ease-in-out 1s infinite normal forwards;
+    }
+    @keyframes bluetrain {
+        0%{
+            top:-40px
+        }
+        100%{
+            top:400px
+        }
+    }
+    .greentrainanimation1{
+        animation: greentrain1 5s ease-in-out 1s infinite normal forwards;
+    }
+    @keyframes greentrain1 {
+        0%{
+            top:-60px
+        }
+        100%{
+            top:350px
+        }
+    }
+    .greentrainanimation2{
+        animation: greentrain2 5s ease-in-out 1s infinite normal forwards;
+    }
+    @keyframes greentrain2 {
+        0%{
+            top:-35px
+        }
+        100%{
+            top:350px
+        }
+    }
+    .greentrainanimation3{
+        animation: greentrain3 5s ease-in-out 1s infinite normal forwards;
+    }
+    @keyframes greentrain3 {
+        0%{
+            top:-50px
+        }
+        100%{
+            top:350px
+        }
+    }
+    .sec6box3bg{
+        background: linear-gradient(245.33deg, rgb(106, 152, 190) 0%, rgb(56, 90, 164) 20.83%, rgb(53, 75, 107) 45.58%, rgb(71, 48, 36) 69.18%, rgb(42, 29, 20) 92.17%);;
+    }
+    .sec7row1box1bg{
+        background: linear-gradient(141.64deg, rgb(38, 6, 107) 3.52%, rgb(14, 53, 81) 66.02%, rgb(5, 40, 71) 88.03%);
+    }
+    .sec7row2box1bg{
+        background: linear-gradient(200.41deg, rgba(99, 29, 62, 0.4) -5.53%, rgba(35, 98, 111, 0.5) 97.77%);
+        background: linear-gradient(110.1deg, rgba(46, 29, 99, 0.4) 0%, rgb(61, 15, 52) 100%);
+    }
+    .sec7row2box2bg{
+        background: linear-gradient(110.1deg, rgba(46, 29, 99, 0.4) 0%, rgb(61, 15, 52) 100%);
+    }
+    .sec7row3bg{
+        background-image: url(sec07-row3-background-pic.svg);
+        background-position-y: -16px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .sec7row3boxbg{
+        background: linear-gradient(108.49deg, rgba(3, 56, 99, 0.3) 0%, rgba(20, 107, 77, 0.3) 100%);
+    }
+    .sec8txtcolor{
+        color: hsl(246, 6%, 65%);
+    }
+    .sec8bgcolor{
+        background-color: hsl(250, 24%, 9%);
+    background-image: linear-gradient(38.73deg, rgba(204, 0, 187, 0.25) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.25) 100%);
+    }
+    .sec8sec3bgnborder{
+        border: 1px solid rgba(255,255,255,0.1);
+        background-color: rgba(255,255,255,0.05);
+    }
+}
